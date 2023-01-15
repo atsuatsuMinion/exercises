@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #ff00ff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header > div{
+  flex-basis: 140px;
+  background-color: #ffBBFF;
+  margin: 0 10px;
+}
+
+header > div:first-child{
+  margin-right: auto;
+}
